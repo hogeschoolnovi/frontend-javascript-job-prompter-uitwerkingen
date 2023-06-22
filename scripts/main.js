@@ -101,7 +101,7 @@ switch (departmentChoice) {
     case 'sales':
         console.log('Je koos ' + departmentChoice + '. ' + departments.sales.description);
         break;
-    case 'customer service':
+    case 'customer-service':
         console.log('Je koos ' + departmentChoice + '. ' + departments['customer-service'].description);
         break;
     default:
