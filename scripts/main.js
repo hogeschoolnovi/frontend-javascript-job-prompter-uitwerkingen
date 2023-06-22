@@ -90,7 +90,7 @@ console.log(`Sales is een uitdagende afdeling om te werken als Verkoopmanager. $
 // --------------------------- OPDRACHT 2 -------------------------------
 
 // --- 2A ---
-const departmentChoice = prompt('Over welke afdeling wil je meer informatie? Kies uit: [Marketing / Sales / Customer Service]');
+const departmentChoice = prompt('Over welke afdeling wil je meer informatie? Kies uit: [Marketing / Sales / Customer-Service]');
 console.log(departmentChoice);
 
 // --- 2B & 2C ---
@@ -103,7 +103,7 @@ switch (departmentChoice) {
         console.log(`Je koos ${departmentChoice}. ${departments.sales.description}`);
         document.getElementById('department-description').textContent = departments.sales.description;
         break;
-    case 'customer service':
+    case 'customer-service':
         console.log(`Je koos ${departmentChoice}. ${departments['customer-service'].description}`);
         document.getElementById('department-description').textContent = departments['customer-service'].description;
         break;
@@ -150,7 +150,7 @@ console.log(`${departmentChoice} is een leuke afdeling om te werken. Er werken o
 
 // --- 4B ---
 const jobChoice = prompt(`Je koos ${departmentChoice}. Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in: 
-0: ${departments[departmentChoice].jobs[0].title}, 
+0: ${departments[departmentChoice].jobs[0].title},
 1: ${departments[departmentChoice].jobs[1].title}, 
 2: ${departments[departmentChoice].jobs[2].title}, 
 3: ${departments[departmentChoice].jobs[3].title}`
