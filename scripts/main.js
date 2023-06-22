@@ -90,7 +90,7 @@ console.log('Sales is een uitdagende afdeling om te werken als Verkoopmanager. '
 // --------------------------- OPDRACHT 2 -------------------------------
 
 // --- 2A ---
-const departmentChoice = prompt('Over welke afdeling wil je meer informatie? Kies uit: [Marketing / Sales / Customer Service]');
+const departmentChoice = prompt('Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service]');
 console.log(departmentChoice);
 
 // --- 2B & 2C ---
